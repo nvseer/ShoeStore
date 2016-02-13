@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IEDriverServer_x64_2.52.0">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/IEDriverServer_x64_2.52.0.zip!/" />
+    </SOURCES>
+  </library>
+</component>
