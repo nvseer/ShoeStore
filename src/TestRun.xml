@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+    <test name="ShoeStore_Chrome">
+        <parameter name="browser" value="Chrome" />
+        <classes>
+            <class name="ShoeStore"/>
+        </classes>
+    </test>
+    <test name="ShoeStore_FireFox">
+        <parameter name="browser" value="Firefox" />
+        <classes>
+            <class name="ShoeStore"/>
+        </classes>
+    </test>
+    <test name="ShoeStore_IE">
+        <parameter name="browser" value="IE" />
+        <classes>
+            <class name="ShoeStore"/>
+        </classes>
+    </test>
+</suite>
